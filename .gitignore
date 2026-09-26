@@ -1,0 +1,15 @@
+# Служебные файлы Visual Studio
+.vs/
+*.user
+
+# Промежуточные файлы сборки (obj, pdb, логи)
+Project1/x64/
+
+# Debug-сборка нужна только для разработки
+x64/Debug/
+
+# Release-сборка: в репозиторий попадает только то, что нужно для запуска игры
+x64/Release/*
+!x64/Release/Project1.exe
+!x64/Release/*.dll
+!x64/Release/assets/
