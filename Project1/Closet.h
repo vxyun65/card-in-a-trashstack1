@@ -4,6 +4,6 @@
 
 // Шкаф: энергии тратит мало, но обыскивать его долго
 class Closet : public SearchableObject {
-public:
-    Closet(int x, int y, TextureManager& textures);
+ public:
+  Closet(int x, int y, TextureManager& textures);
 };
